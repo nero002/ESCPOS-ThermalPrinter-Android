@@ -580,3 +580,4 @@ Convert hexadecimal string of the image data to bytes ESC/POS command.
 Please fork this repository and contribute back using pull requests.
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated but will be thoroughly reviewed
+# ESCPOS-ThermalPrinter
