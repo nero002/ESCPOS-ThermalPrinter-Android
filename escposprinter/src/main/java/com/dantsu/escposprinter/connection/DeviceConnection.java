@@ -53,10 +53,10 @@ public abstract class DeviceConnection {
         try {
             this.outputStream.write(this.data);
             this.outputStream.flush();
-            int waitingTime = addWaitingTime + this.data.length / 16;
+//            int waitingTime = addWaitingTime + this.data.length / 16;
             this.data = new byte[0];
-            if(waitingTime > 0) {
-                Thread.sleep(waitingTime);
+            if(addWaitingTime > 0) {
+                Thread.sleep(addWaitingTime);
             }
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
